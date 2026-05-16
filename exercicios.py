@@ -32,6 +32,11 @@ inteiro = valor1 // valor2
 print(f'A divisão inteira entre {valor1} e {valor2} é: {inteiro}')
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+valor1 = int(input('Digite qualquer valor: '))
+
+quadrado = valor1 ** 2
+
+print(f'O {valor1} ao quadrado é: {quadrado}.')
 
 # #### Números de Ponto Flutuante (`float`)
 
