@@ -47,7 +47,15 @@ valor2 = float(input('Digite qualquer valor: '))
 soma = valor1 + valor2
 
 print(f'A soma entre {valor1} e {valor2} é: {soma}')
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+valor1 = float(input('Digite qualquer valor: '))
+valor2 = float(input('Digite qualquer valor: '))
+
+media = (valor1 + valor2) / 2
+
+print(f'A média entre {valor1} e {valor2} é: {media}')
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
