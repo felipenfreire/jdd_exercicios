@@ -57,6 +57,13 @@ media = (valor1 + valor2) / 2
 print(f'A média entre {valor1} e {valor2} é: {media}')
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+numero = float(input('Digite um número: '))
+expoente = float(input('Digite um número para o expoente: ')) 
+
+potencia = numero ** expoente
+
+print(f'A potência de {numero} sobre {expoente} é {potencia}')
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
