@@ -68,8 +68,13 @@ print(f'A potência de {numero} sobre {expoente} é {potencia}')
 temperatura = float(input('Digite uma temperatura'))
 fahrenheit = (temperatura * 9/5) + 32
 
-print(f'A temperatura: {temperatura} convertida em Fahrenheit é:{fahrenheit}')
+print(f'A temperatura: {temperatura}°C convertida em Fahrenheit é: {fahrenheit}°F')
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+raio = float(input('Digite o raio do círculo: '))
+
+area = 3.14 * raio ** 2
+
+print(f'A área do círculo é {area}')
 
 # #### Strings (`str`)
 
