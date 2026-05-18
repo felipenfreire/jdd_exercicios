@@ -100,6 +100,11 @@ print('Mês:', mes)
 print('Ano:', ano)
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+nome = input('Digite o seu primeiro nome: ').capitalize()
+sobrenome = input('Digite o seu sobrenome: ').capitalize()
+
+nome_completo = f'{nome} {sobrenome}'
+print(nome_completo)
 
 # #### Booleanos (`bool`)
 
